@@ -27,13 +27,13 @@ a:hover {text-decoration: underline;}
 .fixit {width: 185px; height: 209px; display: block; position: fixed; bottom: 0; left: 0; text-indent:-9999px}
 
 body {background: #e8090a; font-family: 'ImpactRegular', Impact, Arial, sans-serif;}
-body.inner {background: url(/web/20211205103743im_/http://amnotjapanese.com/wp-content/themes/amnotjapanese/images/botcorner.jpg) no-repeat bottom left fixed #e8090a;}
+body.inner {background: url(botcorner.jpeg) no-repeat bottom left fixed #e8090a;}
 #container {margin: auto; overflow: hidden; width: 800px; padding: 15px 30px;}
 
 
 h1 {text-align: center; font-size: 105px; text-transform: uppercase; font-weight: normal; color: #94e3f0; margin: 0 0 5px 0;}
 
-#homecontent {min-height: 489px; height: auto !important; height: 489px; background: url(/web/20211205103743im_/http://amnotjapanese.com/wp-content/themes/amnotjapanese/images/logo.jpg) no-repeat bottom left; overflow: hidden;}
+#homecontent {min-height: 489px; height: auto !important; height: 489px; background: url(logo.jpeg) no-repeat bottom left; overflow: hidden;}
 #homecontent h1 {padding: 0 0 0px 0;}
 #topcontent {padding: 0px 0px 55px 0; float: right; width: 570px;}
 #topcontent h2 {font-size: 30px; color: #94e3f0; font-weight: normal; text-align: right; text-transform: uppercase;}
@@ -50,7 +50,7 @@ h1 {text-align: center; font-size: 105px; text-transform: uppercase; font-weight
 #bottomcontent h5 {text-align: center; font-size: 40px; color: #94e3f0; font-weight: normal; text-transform: uppercase; white-space: nowrap;}
 #bottomcontent h6 {text-align: left; font-size: 24px; color: #94e3f0; font-weight: normal; text-transform: uppercase;}
 
-.fullcol {width: 700px;  color: white; padding: 0 50px 25px 50px;} 
+.fullcol {width: 700px;  color: white; padding: 0 50px 25px 50px;}
 .fullcol h2 {font-size: 50px; text-transform: uppercase; font-weight: normal; text-align: center; margin: 0 0 8px 0;}
 .fullcol h3 {font-size: 18px; color: white; text-transform: uppercase; font-weight: normal; text-align: center; margin: 0 0 25px 0;}
 .fullcol h3 span {color: #94e3f0; font-size: 35px;}
