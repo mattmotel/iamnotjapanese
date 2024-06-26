@@ -1,18 +1,19 @@
-/*
-
-Theme Name: I Am Not Japanese
-Author: Connor Hood
-Author URI: http://www.thesiteslinger.com
-Version: 1.0
-
-
-
-*/
-
-a {text-decoration: none;}
-a:hover {text-decoration: underline;}
-.clear {clear: both; height: 0px;}
-.alignleft {float: left; padding: 0 15px 10px 0; display: block;}
+/* General Styles */
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.clear {
+    clear: both;
+    height: 0;
+}
+.alignleft {
+    float: left;
+    padding: 0 15px 10px 0;
+    display: block;
+}
 @font-face {
     font-family: 'ImpactRegular';
     src: url('/web/20211205103743im_/http://amnotjapanese.com/wp-content/themes/amnotjapanese/fonts/impact-webfont.eot') format('eot'),
@@ -21,106 +22,371 @@ a:hover {text-decoration: underline;}
          url('/web/20211205103743im_/http://amnotjapanese.com/wp-content/themes/amnotjapanese/fonts/impact-webfont.svg#webfontUZ5wW5Hq') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-.fixit {width: 185px; height: 209px; display: block; position: fixed; bottom: 0; left: 0; text-indent:-9999px}
+.fixit {
+    width: 185px;
+    height: 209px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-indent: -9999px;
+}
 
-body {background: #e8090a; font-family: 'ImpactRegular', Impact, Arial, sans-serif;}
-body.inner {background: url(botcorner.jpeg) no-repeat bottom left fixed #e8090a;}
-#container {margin: auto; overflow: hidden; width: 800px; padding: 15px 30px;}
+body {
+    background: #e8090a;
+    font-family: 'ImpactRegular', Impact, Arial, sans-serif;
+}
+body.inner {
+    background: url(botcorner.jpeg) no-repeat bottom left fixed #e8090a;
+}
+#container {
+    margin: auto;
+    overflow: hidden;
+    width: 800px;
+    padding: 15px 30px;
+}
 
+h1 {
+    text-align: center;
+    font-size: 105px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #94e3f0;
+    margin: 0 0 5px 0;
+}
 
-h1 {text-align: center; font-size: 105px; text-transform: uppercase; font-weight: normal; color: #94e3f0; margin: 0 0 5px 0;}
+#homecontent {
+    min-height: 489px;
+    height: auto !important;
+    background: url(logo.jpeg) no-repeat bottom left;
+    overflow: hidden;
+}
+#homecontent h1 {
+    padding: 0;
+}
 
-#homecontent {min-height: 489px; height: auto !important; height: 489px; background: url(logo.jpeg) no-repeat bottom left; overflow: hidden;}
-#homecontent h1 {padding: 0 0 0px 0;}
-#topcontent {padding: 0px 0px 55px 0; float: right; width: 570px;}
-#topcontent h2 {font-size: 30px; color: #94e3f0; font-weight: normal; text-align: right; text-transform: uppercase;}
-#topcontent h3 {text-align: right; font-size: 50px; font-weight: normal; color: #94e3f0; text-transform: uppercase;}
-#topcontent h3 span {text-transform: none; font-size: 26px;}
+#topcontent {
+    padding: 0 0 55px 0;
+    float: right;
+    width: 570px;
+}
+#topcontent h2 {
+    font-size: 30px;
+    color: #94e3f0;
+    font-weight: normal;
+    text-align: right;
+    text-transform: uppercase;
+}
+#topcontent h3 {
+    text-align: right;
+    font-size: 50px;
+    font-weight: normal;
+    color: #94e3f0;
+    text-transform: uppercase;
+}
+#topcontent h3 span {
+    text-transform: none;
+    font-size: 26px;
+}
 
-#bottomcontent {width: 335px; float: right; padding: 0 0px 0 0; position: relative; right: 10px;}
-#bottomcontent p {font-weight: normal; text-align: center; color: #94e3f0; font-size: 24px;}
-#bottomcontent p.upper {text-transform: uppercase; margin: 0 0 55px 0;}
-#bottomcontent a {color: #94e3f0;}
-#bottomcontent a:hover {color: white; text-decoration: none;}
-#bottomcontent h4 {text-align: center; font-size: 36px; color: #94e3f0; font-weight: normal; text-transform: uppercase;}
-#bottomcontent h4 span {font-size: 24px;}
-#bottomcontent h5 {text-align: center; font-size: 40px; color: #94e3f0; font-weight: normal; text-transform: uppercase; white-space: nowrap;}
-#bottomcontent h6 {text-align: left; font-size: 24px; color: #94e3f0; font-weight: normal; text-transform: uppercase;}
+#bottomcontent {
+    width: 335px;
+    float: right;
+    padding: 0;
+    position: relative;
+    right: 10px;
+}
+#bottomcontent p {
+    font-weight: normal;
+    text-align: center;
+    color: #94e3f0;
+    font-size: 24px;
+}
+#bottomcontent p.upper {
+    text-transform: uppercase;
+    margin: 0 0 55px 0;
+}
+#bottomcontent a {
+    color: #94e3f0;
+}
+#bottomcontent a:hover {
+    color: white;
+    text-decoration: none;
+}
+#bottomcontent h4 {
+    text-align: center;
+    font-size: 36px;
+    color: #94e3f0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+#bottomcontent h4 span {
+    font-size: 24px;
+}
+#bottomcontent h5 {
+    text-align: center;
+    font-size: 40px;
+    color: #94e3f0;
+    font-weight: normal;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+#bottomcontent h6 {
+    text-align: left;
+    font-size: 24px;
+    color: #94e3f0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
 
-.fullcol {width: 700px;  color: white; padding: 0 50px 25px 50px;}
-.fullcol h2 {font-size: 50px; text-transform: uppercase; font-weight: normal; text-align: center; margin: 0 0 8px 0;}
-.fullcol h3 {font-size: 18px; color: white; text-transform: uppercase; font-weight: normal; text-align: center; margin: 0 0 25px 0;}
-.fullcol h3 span {color: #94e3f0; font-size: 35px;}
-.fullcol h3 a {color: #94e3f0;}
-.fullcol h3 a:hover, .fullcol h3 a:hover span {text-decoration: none; color: white;}
-.fullcol h4 {font-size: 30px; text-transform: uppercase; color: #94e3f0; font-weight: normal; text-align: left; margin: 0 0 8px 0;}
-.fullcol fieldset div {overflow: hidden; width: 340px; padding: 0 0 5px 0;}
-.fullcol fieldset label {display: block;  font-size: 14px; }
-.fullcol fieldset .medium {background: white; border: none; width: 330px; padding: 5px; font-family:'ImpactRegular';}
-.fullcol fieldset  textarea {background: white; border: none; width: 330px; padding: 5px; height: 100px; font-family:'ImpactRegular';}
-.fullcol fieldset .submit {background: #94e3f0; border: 1px solid white; font-size: 14px; float: right; font-family:'ImpactRegular'; cursor: pointer;}
-.fullcol p {font-size: 17px; text-align: left; margin: 0 0 30px 0;}
+.fullcol {
+    width: 700px;
+    color: white;
+    padding: 0 50px 25px 50px;
+}
+.fullcol h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 8px 0;
+}
+.fullcol h3 {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+.fullcol h3 span {
+    color: #94e3f0;
+    font-size: 35px;
+}
+.fullcol h3 a {
+    color: #94e3f0;
+}
+.fullcol h3 a:hover,
+.fullcol h3 a:hover span {
+    text-decoration: none;
+    color: white;
+}
+.fullcol h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #94e3f0;
+    font-weight: normal;
+    text-align: left;
+    margin: 0 0 8px 0;
+}
+.fullcol fieldset div {
+    overflow: hidden;
+    width: 340px;
+    padding: 0 0 5px 0;
+}
+.fullcol fieldset label {
+    display: block;
+    font-size: 14px;
+}
+.fullcol fieldset .medium {
+    background: white;
+    border: none;
+    width: 330px;
+    padding: 5px;
+    font-family: 'ImpactRegular';
+}
+.fullcol fieldset textarea {
+    background: white;
+    border: none;
+    width: 330px;
+    padding: 5px;
+    height: 100px;
+    font-family: 'ImpactRegular';
+}
+.fullcol fieldset .submit {
+    background: #94e3f0;
+    border: 1px solid white;
+    font-size: 14px;
+    float: right;
+    font-family: 'ImpactRegular';
+    cursor: pointer;
+}
+.fullcol p {
+    font-size: 17px;
+    text-align: left;
+    margin: 0 0 30px 0;
+}
 
+.leftcol {
+    width: 350px;
+    float: left;
+    margin: 0;
+    color: white;
+    padding: 0 0 25px 0;
+}
+.leftcol h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+.leftcol h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 25px 0;
+    color: #94e3f0;
+}
+.leftcol h4 a {
+    color: #94e3f0;
+}
+.leftcol h4 a:hover {
+    color: white;
+    text-decoration: none;
+}
+.leftcol p {
+    font-size: 17px;
+    text-align: left;
+    margin: 0 0 25px 0;
+    text-transform: uppercase;
+    color: white;
+}
+.leftcol li {
+    overflow: hidden;
+    width: 350px;
+    padding: 0 0 5px 0;
+}
+.leftcol label {
+    display: block;
+    font-size: 14px;
+}
+.leftcol .medium {
+    background: white;
+    border: none;
+    width: 340px;
+    padding: 5px;
+    font-family: 'ImpactRegular';
+}
+.leftcol textarea {
+    background: white;
+    border: none;
+    width: 340px;
+    padding: 5px;
+    height: 100px;
+    font-family: 'ImpactRegular';
+}
+.leftcol #gform_submit_button_1 {
+    background: #94e3f0;
+    border: 1px solid white;
+    font-size: 14px;
+    float: right;
+    font-family: 'ImpactRegular';
+    cursor: pointer;
+}
+.gform_edit_link {
+    display: none;
+}
 
-.leftcol {width: 350px; float: left; margin: 0px 0; color: white; padding: 0 0 25px 0; }
-.leftcol h4 {font-size: 40px; text-transform: uppercase; font-weight: normal; text-align: center; margin: 0 0 25px 0;}
-.leftcol h5 {font-size: 40px; text-transform: uppercase; font-weight: normal; text-align: center; margin: 0 0 25px 0; color: #94e3f0;}
-.leftcol h4 a {color: #94e3f0;}
-.leftcol h4 a:hover {color: white; text-decoration: none;}
-.leftcol p {font-size: 17px; text-align: left; margin: 0 0 25px 0; text-transform: uppercase; color: white;}
+.rightcol {
+    width: 350px;
+    float: right;
+    margin: 0;
+    padding: 0 0 25px 45px;
+    color: white;
+    border-left: 10px solid white;
+}
+.rightcol h4 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+.rightcol h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 25px 0;
+    color: #94e3f0;
+}
+.rightcol h4 a {
+    color: #94e3f0;
+}
+.rightcol h4 a:hover {
+    color: white;
+    text-decoration: none;
+}
+.rightcol p {
+    font-size: 17px;
+    text-align: left;
+    margin: 0 0 25px 0;
+    text-transform: uppercase;
+    color: white;
+}
+.rightcol a {
+    color: white;
+}
+.rightcol a:hover {
+    text-decoration: none;
+    color: #94e3f0;
+}
+.rightcol fieldset div {
+    overflow: hidden;
+    width: 260px;
+    padding: 0 0 5px 0;
+}
+.rightcol fieldset label {
+    display: block;
+    font-size: 14px;
+}
+.rightcol fieldset .medium {
+    background: white;
+    border: none;
+    width: 250px;
+    padding: 5px;
+    font-family: 'ImpactRegular';
+}
+.rightcol fieldset textarea {
+    background: white;
+    border: none;
+    width: 250px;
+    padding: 5px;
+    height: 100px;
+    font-family: 'ImpactRegular';
+}
+.rightcol fieldset .submit {
+    background: #94e3f0;
+    border: 1px solid white;
+    font-size: 14px;
+    float: right;
+    font-family: 'ImpactRegular';
+    cursor: pointer;
+}
 
-.leftcol li {overflow: hidden; width: 350px; padding: 0 0 5px 0;}
-.leftcol label {display: block;  font-size: 14px; }
-.leftcol .medium {background: white; border: none; width: 340px; padding: 5px; font-family:'ImpactRegular';}
-.leftcol textarea {background: white; border: none; width: 340px; padding: 5px; height: 100px; font-family:'ImpactRegular';}
-.leftcol #gform_submit_button_1 {background: #94e3f0; border: 1px solid white; font-size: 14px; float: right; font-family:'ImpactRegular'; cursor: pointer;}
-.gform_edit_link {display: none;}
-
-.rightcol {width: 350px; float: right; margin: 0px 0; padding: 0px 0 25px 45px; color: white; border-left: 10px solid white; }
-.rightcol h4 {font-size: 40px; text-transform: uppercase; font-weight: normal; text-align: center; margin: 0 0 25px 0;}
-.rightcol h5 {font-size: 40px; text-transform: uppercase; font-weight: normal; text-align: center; margin: 0 0 25px 0; color: #94e3f0;}
-.rightcol h4 a {color: #94e3f0;}
-.rightcol h4 a:hover {color: white; text-decoration: none;}
-.rightcol p {font-size: 17px; text-align: left; margin: 0 0 25px 0; text-transform: uppercase; color: white;}
-.rightcol a {color: white;}
-.rightcol a:hover {text-decoration: none; color: #94e3f0;}
-
-.rightcol fieldset div {overflow: hidden; width: 260px; padding: 0 0 5px 0;}
-.rightcol fieldset label {display: block;  font-size: 14px; }
-.rightcol fieldset .medium {background: white; border: none; width: 250px; padding: 5px; font-family:'ImpactRegular';}
-.rightcol fieldset  textarea {background: white; border: none; width: 250px; padding: 5px; height: 100px; font-family:'ImpactRegular';}
-.rightcol fieldset .submit {background: #94e3f0; border: 1px solid white; font-size: 14px; float: right; font-family:'ImpactRegular'; cursor: pointer;}
-
-
-#footer {width: 100%; padding: 5px 0 0 0; border-top: 3px solid white; font-size: 17px; overflow: hidden;}
-#footer ul {float: right; text-transform: uppercase;}
-#footer li {float: left; padding: 0 10px;}
-#footer a {color: white;}
-#footer a:hover, #footer li.current_page_item a {text-decoration: none; color: #94e3f0;}
-
-
-
-
-/*
-     FILE ARCHIVED ON 10:37:43 Dec 05, 2021 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 13:46:13 Jun 26, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.862
-  exclusion.robots: 0.089
-  exclusion.robots.policy: 0.075
-  esindex: 0.015
-  cdx.remote: 161.747
-  LoadShardBlock: 299.719 (3)
-  PetaboxLoader3.resolve: 298.613 (3)
-  PetaboxLoader3.datanode: 78.242 (4)
-  load_resource: 442.649
-*/
+#footer {
+    width: 100%;
+    padding: 5px 0 0 0;
+    border-top: 3px solid white;
+    font-size: 17px;
+    overflow: hidden;
+}
+#footer ul {
+    float: right;
+    text-transform: uppercase;
+}
+#footer li {
+    float: left;
+    padding: 0 10px;
+}
+#footer a {
+    color: white;
+}
+#footer a:hover, #footer li.current_page_item a {
+    text-decoration: none;
+    color: #94e3f0;
+}
