@@ -370,8 +370,8 @@ h1 {
 
 #footer {
     width: 100%;
-    padding: 5px 0 0 0;
-    border-top: 3px solid white;
+    padding: 5px 0;
+    border-bottom: 3px solid white;
     font-size: 17px;
     overflow: hidden;
 }
